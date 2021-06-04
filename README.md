@@ -1,1 +1,3 @@
-# UmbracoTemplate
+# Contains:
+- Umbraco installation
+- .gitignore 
