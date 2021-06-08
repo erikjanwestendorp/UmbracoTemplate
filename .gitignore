@@ -67,4 +67,4 @@ bld/
 **/App_Data/Models/ood.flag
 
 # Custom
-!/MyWebsite.Web/App_Data/Umbraco.sdf
+!MyWebsite/App_Data/Umbraco.sdf
