@@ -294,6 +294,22 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\Models\Article.generated.cs" />
+    <Compile Include="App_Data\Models\Audio.generated.cs" />
+    <Compile Include="App_Data\Models\CaseComponent.generated.cs" />
+    <Compile Include="App_Data\Models\CaseElement.generated.cs" />
+    <Compile Include="App_Data\Models\ComponentComposition.generated.cs" />
+    <Compile Include="App_Data\Models\ComponentsComposition.generated.cs" />
+    <Compile Include="App_Data\Models\FeatureComponents.generated.cs" />
+    <Compile Include="App_Data\Models\FeatureElement.generated.cs" />
+    <Compile Include="App_Data\Models\File.generated.cs" />
+    <Compile Include="App_Data\Models\Folder.generated.cs" />
+    <Compile Include="App_Data\Models\Image.generated.cs" />
+    <Compile Include="App_Data\Models\Member.generated.cs" />
+    <Compile Include="App_Data\Models\PageComposition.generated.cs" />
+    <Compile Include="App_Data\Models\VectorGraphics.generated.cs" />
+    <Compile Include="App_Data\Models\Video.generated.cs" />
+    <Compile Include="App_Data\Models\Website.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -319,6 +335,7 @@
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\BlockList\Default.cshtml" />
+    <Content Include="Views\Website.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
