@@ -1,0 +1,12 @@
+﻿@using MyWebsite.Core.Extensions
+@using MyWebsite.Data.Models
+@inherits UmbracoViewPage
+@{
+    if (Model is IComponentsComposition componentsComposition && componentsComposition.HasComponents())
+    {
+        foreach (var component in componentsComposition.GetComponents())
+        {
+            @Html.Action("RenderComponent", "Component", new { component })
+        }
+    }
+}    
